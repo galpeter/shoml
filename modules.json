@@ -1,0 +1,11 @@
+{
+  "modules": {
+    "shoml": {
+      "js_file": "js/module.js",
+      "native_files": ["src/module.c"],
+      "external_libs": ["dl"],
+      "init": "InitSHOML",
+      "cmakefile": "module.cmake"
+    }
+  }
+}
